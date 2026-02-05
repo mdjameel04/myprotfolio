@@ -56,19 +56,7 @@ export default function HackathonsSection() {
                 )}
                 {hackathon.links && hackathon.links.length > 0 && (
                   <div className="mt-1 flex flex-row flex-wrap items-start gap-2">
-                    {hackathon.links.map((link, idx) => (
-                      <Link
-                        href={link.href}
-                        key={idx}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Badge className="flex items-center gap-1.5 text-xs bg-primary text-primary-foreground">
-                          {link.icon}
-                          {link.title}
-                        </Badge>
-                      </Link>
-                    ))}
+                   
                   </div>
                 )}
               </div>

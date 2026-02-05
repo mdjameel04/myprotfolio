@@ -199,7 +199,8 @@ skills: [
           icon: <Icons.github className="size-3" />,
         },
       ],
-      video: "/cursorful-video-1770280798321.mp4", 
+    image: undefined, // ✅ ADD THIS
+            video: "/cursorful-video-1770280798321.mp4", 
     },
     {
       title: "Deal Hunt — Automated Price Intelligence Tool",
@@ -216,6 +217,8 @@ skills: [
           icon: <Icons.globe className="size-3" />,
         },
       ],
+          image: undefined, // ✅ ADD THIS
+
       video: "/producthunt.mp4", 
     },
     {
@@ -233,6 +236,8 @@ skills: [
           icon: <Icons.globe className="size-3" />,
         },
       ],
+          video: undefined, // ✅ ADD THIS
+
       image: "/ai-travel-demo.png",
     },
     {
@@ -251,6 +256,8 @@ skills: [
         },
       ],
       image: "/furniture-3d.png",
+                video: undefined, // ✅ ADD THIS
+
     },
 ],
 
