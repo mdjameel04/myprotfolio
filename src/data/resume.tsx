@@ -7,7 +7,6 @@ import {
   Atom,
   Code,
   Server,
-  FileUser,
 } from "lucide-react"
 
 import {
@@ -86,7 +85,6 @@ skills: [
   /* ===================== NAVBAR ===================== */
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/CV", icon: FileUser, label: "CV" },
   ],
 
   /* ===================== CONTACT ===================== */
