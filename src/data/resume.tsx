@@ -240,7 +240,7 @@ skills: [
     },
     {
       title: "Elite Furniture — High-Fidelity 3D Experience",
-      href: "#",
+      href: "https://elite-furny.vercel.app/",
       dates: "2025",
       active: true,
       description:
@@ -249,12 +249,18 @@ skills: [
       links: [
         {
           type: "Website",
-          href: "#",
+          href: "https://elite-furny.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+
+        {
+          type: "Source",
+          href: "https://github.com/mdjameel04/EliteFurny",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "/furniture-3d.png",
-                video: undefined, // ✅ ADD THIS
+      image: undefined,
+                video: "/raw-screen-2.mp4", // ✅ ADD THIS
 
     },
 ],
