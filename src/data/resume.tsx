@@ -201,7 +201,7 @@ skills: [
             video: "/cursorful-video-1770280798321.mp4", 
     },
     {
-      title: "Deal Hunt — Automated Price Intelligence Tool",
+      title: "Recipe-Hub — RecipeHUb is an AI recipes platform that helps users find and create delicious recipes easily.",
       href: "https://deal-hunt-g7tf.vercel.app/",
       dates: "2025",
       active: true,
@@ -217,7 +217,7 @@ skills: [
       ],
           image: undefined, // ✅ ADD THIS
 
-      video: "/producthunt.mp4", 
+      video: "/raw-screen-3.mp4", 
     },
     {
       title: "AI Journey Planner — Generative Travel Engine",
@@ -234,7 +234,7 @@ skills: [
           icon: <Icons.globe className="size-3" />,
         },
       ],
-          video: undefined, // ✅ ADD THIS
+          video: "", // ✅ ADD THIS
 
       image: "/ai-travel-demo.png",
     },
@@ -247,7 +247,7 @@ skills: [
         "An immersive e-commerce concept pushing the boundaries of web-based 3D rendering. Leveraged Three.js for R3F (React Three Fiber) model loading and GSAP for complex scroll-triggered animation sequences. Optimized assets for 60FPS performance across mobile and desktop devices.",
       technologies: ["Three.js", "React Three Fiber", "GSAP", "TailwindCSS", "Vite"],
       links: [
-        {
+        {    
           type: "Website",
           href: "https://elite-furny.vercel.app/",
           icon: <Icons.globe className="size-3" />,
