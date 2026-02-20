@@ -234,7 +234,7 @@ skills: [
           icon: <Icons.globe className="size-3" />,
         },
       ],
-          video: "", // ✅ ADD THIS
+          video: "/raw-screen-4.mp4", // ✅ ADD THIS
 
       image: "/ai-travel-demo.png",
     },
