@@ -39,16 +39,16 @@ export default function ProjectsSection() {
                             className="h-full"
                         >
                             <ProjectCard
-                                href={project.href}
-                                key={project.title}
-                                title={project.title}
-                                description={project.description}
-                                dates={project.dates}
-                                tags={project.technologies}
-                                image={project.image }
-                                video={project.video}
-                                links={project.links}
-                            />
+    href={project.href}
+    key={project.title}
+    title={project.title}
+    description={project.description}
+    dates={project.dates}
+    tags={project.technologies}
+    image={"image" in project ? project.image : undefined}
+    video={"video" in project ? project.video : undefined}
+    links={project.links}
+/>
                         </BlurFade>
                     ))}
                 </div>
